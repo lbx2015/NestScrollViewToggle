@@ -1,4 +1,4 @@
-package scrollview.custom.com.customnestedscrollview;
+package com.customnestedscrollview;
 
 import android.content.Context;
 import android.os.Build;

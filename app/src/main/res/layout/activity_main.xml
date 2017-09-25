@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <scrollview.custom.com.customnestedscrollview.CustomNestedScrollView
+    <com.customnestedscrollview.CustomNestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -13,5 +13,5 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-    </scrollview.custom.com.customnestedscrollview.CustomNestedScrollView>
+    </com.customnestedscrollview.CustomNestedScrollView>
 </LinearLayout>

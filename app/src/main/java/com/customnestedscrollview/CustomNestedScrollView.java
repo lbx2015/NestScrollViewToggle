@@ -1,4 +1,4 @@
-package scrollview.custom.com.customnestedscrollview;
+package com.customnestedscrollview;
 
 import android.animation.Animator;
 import android.animation.ValueAnimator;
@@ -60,6 +60,8 @@ public class CustomNestedScrollView extends FrameLayout implements NestedScrolli
 
     public CustomNestedScrollView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        //禁止多点触摸
+        setMotionEventSplittingEnabled(false);
 
         monthCalendar = new View(context, attrs);
         weekCalendar = new View(context, attrs);
@@ -125,7 +127,6 @@ public class CustomNestedScrollView extends FrameLayout implements NestedScrolli
 
             }
         });
-
     }
 
     @Override

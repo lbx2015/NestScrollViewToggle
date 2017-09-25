@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CustomNestedScrollView.iml" filepath="$PROJECT_DIR$/CustomNestedScrollView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customViewToggle.iml" filepath="$PROJECT_DIR$/customViewToggle.iml" />
     </modules>
   </component>
 </project>
