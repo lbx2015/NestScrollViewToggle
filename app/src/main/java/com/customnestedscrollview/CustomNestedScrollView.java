@@ -396,7 +396,7 @@ public class CustomNestedScrollView extends FrameLayout implements NestedScrolli
                 }
                 break;
         }
-        return super.onInterceptTouchEvent(ev);
+        return true;
     }
 
 

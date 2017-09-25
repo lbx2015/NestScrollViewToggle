@@ -6,7 +6,9 @@
 
     <com.customnestedscrollview.CustomNestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:splitMotionEvents="false"
+        android:windowEnableSplitTouch="false">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recyclerView"
